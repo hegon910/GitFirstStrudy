@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!!");
+            bool bValue;
+            int iValue = 10;
+            bValue = true || (++iValue > 5);
+            Console.WriteLine(iValue);
         }
     }
 }
