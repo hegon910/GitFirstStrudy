@@ -7,7 +7,7 @@
             bool bValue;
             int iValue = 10;
             bValue = true || (++iValue > 5);
-            Console.WriteLine(iValue);
+            Console.WriteLine(bValue);
         }
     }
 }
